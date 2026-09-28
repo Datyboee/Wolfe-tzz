@@ -1314,3 +1314,46 @@ section {
   .hero h1{font-size:40px}
   section{padding-left:15px;padding-right:15px}
 }
+
+
+
+/* VISIBLE WOLFE LINKS */
+.wolfe-links{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+  max-width:900px;
+  margin:35px auto;
+}
+.wolfe-links div{
+  padding:20px;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:18px;
+  background:rgba(255,255,255,.035);
+  text-align:center;
+}
+.wolfe-links span{
+  display:block;
+  font-size:10px;
+  letter-spacing:2px;
+  opacity:.55;
+  margin-bottom:8px;
+}
+.wolfe-links a{
+  color:inherit;
+  text-decoration:none;
+  font-size:13px;
+  word-break:break-all;
+}
+.wolfe-links a:hover{
+  text-decoration:underline;
+}
+@media(max-width:700px){
+  .wolfe-links{
+    grid-template-columns:1fr;
+    margin:28px 18px;
+  }
+  .wolfe-links div{
+    padding:18px 14px;
+  }
+}
