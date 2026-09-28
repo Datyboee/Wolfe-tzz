@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+    <rect width="500" height="500" fill="#050505"/>
+
+    <path
+        d="M250 55
+        L315 125
+        L405 95
+        L370 180
+        L430 245
+        L355 260
+        L375 355
+        L300 315
+        L250 430
+        L200 315
+        L125 355
+        L145 260
+        L70 245
+        L130 180
+        L95 95
+        L185 125 Z"
+        fill="none"
+        stroke="white"
+        stroke-width="8"
+        stroke-linejoin="round"/>
+
+    <path
+        d="M165 215 L215 245 L250 225 L285 245 L335 215"
+        fill="none"
+        stroke="white"
+        stroke-width="7"/>
+
+    <circle cx="195" cy="205" r="7" fill="white"/>
+    <circle cx="305" cy="205" r="7" fill="white"/>
+</svg>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOLFE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="intro">
+        <div class="loader-ring"></div>
+        <img class="intro-wolf" src="assets/wolfe-logo.svg" alt="WOLFE logo"><div class="intro-logo">WOLFE</div>
+        <div class="intro-line"></div>
+        <p>ENTERING THE WOLFE</p>
+    </div>
+
+    <div id="site">
+
+        <header>
+            <div class="logo">WOLFE</div>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+            <a href="#connect">Connect</a>
+            <a href="#built">Built With Us</a>
+            </nav>
+        </header>
+
+        <main id="home">
+            <section class="hero">
+
+                <p class="tag">WELCOME TO THE WOLFE</p>
+
+                <h1>
+                    BUILD.<br>
+                    CREATE.<br>
+                    <span>DOMINATE.</span>
+                </h1>
+
+                <p class="description">
+                    Technology, creativity and ideas — built from zero.
+                </p>
+
+                <button onclick="showMessage()">
+                    ENTER WOLFE
+                </button>
+
+            </section>
+        </main>
+
+        <section id="about" class="section">
+            <p class="tag">ABOUT WOLFE</p>
+            <h2>BUILT FROM<br><span>ZERO.</span></h2>
+            <p>
+                WOLFE is a technology and creative project focused on
+                building useful digital experiences, experimenting with
+                ideas and turning concepts into real projects.
+            </p>
+        </section>
+
+        <section id="projects" class="section projects">
+            <p class="tag">SELECTED PROJECTS</p>
+            <h2>WHAT WE<br><span>BUILD.</span></h2>
+
+            <div class="project-grid">
+                <div class="project-card">
+                    <small>01</small>
+                    <h3>WOLFE BOT</h3>
+                    <p>Automation and intelligent messaging.</p>
+                </div>
+
+                <div class="project-card">
+                    <small>02</small>
+                    <h3>WOLFE WEB</h3>
+                    <p>Modern websites and digital experiences.</p>
+                </div>
+
+                <div class="project-card">
+                    <small>03</small>
+                    <h3>WOLFE LAB</h3>
+                    <p>Experiments, Linux projects and technology.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="section connect">
+            <p class="tag">CONNECT WITH WOLFE</p>
+            <h2>LET'S BUILD<br><span>SOMETHING.</span></h2>
+
+            <p>
+                Follow the journey, explore the projects and watch WOLFE grow
+                from an idea into something real.
+            </p>
+
+            <div class="connect-buttons">
+                <a href="#projects" class="connect-btn">VIEW PROJECTS</a>
+                <a href="#home" class="connect-btn">BACK TO TOP</a>
+            </div>
+        </section>
+
+        <section id="built" class="section built">
+            <p class="tag">BUILT WITH US</p>
+
+            <h2>YOUR IDEA.<br><span>OUR BUILD.</span></h2>
+
+            <p>
+                Choose what you want WOLFE to build for you.
+                Start the conversation directly on WhatsApp.
+            </p>
+
+            <div class="service-grid">
+
+                <div class="service-card">
+                    <small>01</small>
+                    <h3>BUILD A BOT</h3>
+                    <p>WhatsApp bots, automation and smart messaging systems.</p>
+                    <a href="https://wa.me/255658178812?text=Hello%20WOLFE%2C%20I%27d%20like%20to%20build%20a%20bot." target="_blank">
+                        REQUEST SERVICE →
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <small>02</small>
+                    <h3>BUILD A WEBSITE</h3>
+                    <p>Modern websites, landing pages and digital platforms.</p>
+                    <a href="https://wa.me/255658178812?text=Hello%20WOLFE%2C%20I%27d%20like%20to%20build%20a%20website." target="_blank">
+                        REQUEST SERVICE →
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <small>03</small>
+                    <h3>GRAPHIC DESIGN</h3>
+                    <p>Branding, posters, social media graphics and creative work.</p>
+                    <a href="https://wa.me/255658178812?text=Hello%20WOLFE%2C%20I%27d%20like%20graphic%20design%20services." target="_blank">
+                        REQUEST SERVICE →
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <small>04</small>
+                    <h3>AUTOMATION</h3>
+                    <p>Tools and workflows designed to save time and simplify work.</p>
+                    <a href="https://wa.me/255658178812?text=Hello%20WOLFE%2C%20I%27d%20like%20to%20discuss%20automation." target="_blank">
+                        REQUEST SERVICE →
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <small>05</small>
+                    <h3>OTHER TECH</h3>
+                    <p>Have another idea? Tell WOLFE what you want to build.</p>
+                    <a href="https://wa.me/255658178812?text=Hello%20WOLFE%2C%20I%20have%20a%20tech%20project%20idea." target="_blank">
+                        START A PROJECT →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        
+<section class="request-section" id="request">
+  <div class="section-label">START A PROJECT</div>
+  <h2>LET'S BUILD YOUR IDEA.</h2>
+  <p class="request-intro">
+    Tell WOLFE what you want to build and we'll continue the conversation on WhatsApp.
+  </p>
+
+  <div class="request-box">
+    <label for="client-name">YOUR NAME</label>
+    <input id="client-name" type="text" placeholder="Enter your name">
+
+    <label for="client-service">WHAT DO YOU NEED?</label>
+    <select id="client-service">
+      <option value="Bot">Build a Bot</option>
+      <option value="Website">Build a Website</option>
+      <option value="Graphic Design">Graphic Design</option>
+      <option value="Automation">Automation</option>
+      <option value="Other Tech">Other Tech</option>
+    </select>
+
+    <label for="client-project">TELL US ABOUT YOUR IDEA</label>
+    <textarea id="client-project" rows="5"
+      placeholder="Describe what you want WOLFE to build..."></textarea>
+
+    <button type="button" class="request-button" onclick="sendWolfeRequest()">
+      SEND TO WOLFE →
+    </button>
+  </div>
+</section>
+
+<footer>
+            <p>© 2026 WOLFE — Built from zero.</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
